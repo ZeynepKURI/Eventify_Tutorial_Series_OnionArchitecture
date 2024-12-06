@@ -1,11 +1,19 @@
 ﻿using System;
-namespace Eventify_Tutorial_Series_OnionArchitecture.Application.DTOs
+using Eventify_Tutorial_Series_OnionArchitecture.Domain.ValueObjects;
+
+namespace Eventify_Tutorial_Series_OnionArchitecture.Application.DTO
 {
-	public class CreateEventDTOs
+	public class CreateEventDTO
 	{
-		public CreateEventDTOs()
-		{
-		}
-	}
+		public string Title { get; set; }
+
+        public DateTimeOffset Date { get; set; }
+
+        public Location location{ get; set; }
+
+
+
+       
+    }
 }
 

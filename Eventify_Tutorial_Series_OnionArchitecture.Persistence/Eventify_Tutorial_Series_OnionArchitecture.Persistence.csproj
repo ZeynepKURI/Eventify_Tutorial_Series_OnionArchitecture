@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="DbContexts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="DbContexts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Eventify_Tutorial_Series_OnionArchitecture\Eventify_Tutorial_Series_OnionArchitecture.Application\Eventify_Tutorial_Series_OnionArchitecture.Application.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.0" />
+  </ItemGroup>
 </Project>
