@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F867DAFE-5047-4796-991C-431EFF7A16E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EF6FBFC5-4925-4D8E-9BC7-3B8185286338}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{22F0615B-F7CD-42A8-97FB-AAC565E7919A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify_Tutorial_Series_OnionArchitecture.Domain", "Core\Eventify_Tutorial_Series_OnionArchitecture.Domain\Eventify_Tutorial_Series_OnionArchitecture.Domain.csproj", "{C18E82AB-D464-4AD5-B218-B7BD56C7C668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify_Tutorial_Series_OnionArchitecture.Application", "Core\Eventify_Tutorial_Series_OnionArchitecture\Eventify_Tutorial_Series_OnionArchitecture.Application\Eventify_Tutorial_Series_OnionArchitecture.Application.csproj", "{E934913C-9D97-4B81-8732-C95689C67848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify_Tutorial_Series_OnionArchitecture.Persistence", "Eventify_Tutorial_Series_OnionArchitecture.Persistence\Eventify_Tutorial_Series_OnionArchitecture.Persistence.csproj", "{66FF8E65-7CAD-4177-A455-5A493EC1A70C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify_Tutorial_Series_OnionArchitecture.Infrastructure", "Eventify_Tutorial_Series_OnionArchitecture\Eventify_Tutorial_Series_OnionArchitecture.Infrastructure\Eventify_Tutorial_Series_OnionArchitecture.Infrastructure.csproj", "{8BC8E29C-36FE-457B-935A-E85BD082AF52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify_Tutorial_Series_OnionArchitecture.API", "..\Eventify_Tutorial_Series_OnionArchitecture.Presentation\Eventify_Tutorial_Series_OnionArchitecture.API\Eventify_Tutorial_Series_OnionArchitecture.API.csproj", "{2241CE72-5FD1-4F54-BBD6-AFA6ACFBEE5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C18E82AB-D464-4AD5-B218-B7BD56C7C668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18E82AB-D464-4AD5-B218-B7BD56C7C668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18E82AB-D464-4AD5-B218-B7BD56C7C668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18E82AB-D464-4AD5-B218-B7BD56C7C668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E934913C-9D97-4B81-8732-C95689C67848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E934913C-9D97-4B81-8732-C95689C67848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E934913C-9D97-4B81-8732-C95689C67848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E934913C-9D97-4B81-8732-C95689C67848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FF8E65-7CAD-4177-A455-5A493EC1A70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FF8E65-7CAD-4177-A455-5A493EC1A70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FF8E65-7CAD-4177-A455-5A493EC1A70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FF8E65-7CAD-4177-A455-5A493EC1A70C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC8E29C-36FE-457B-935A-E85BD082AF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC8E29C-36FE-457B-935A-E85BD082AF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC8E29C-36FE-457B-935A-E85BD082AF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC8E29C-36FE-457B-935A-E85BD082AF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2241CE72-5FD1-4F54-BBD6-AFA6ACFBEE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2241CE72-5FD1-4F54-BBD6-AFA6ACFBEE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2241CE72-5FD1-4F54-BBD6-AFA6ACFBEE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2241CE72-5FD1-4F54-BBD6-AFA6ACFBEE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83643D15-DFF1-4195-83A9-31E9D9DD941E}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C18E82AB-D464-4AD5-B218-B7BD56C7C668} = {F867DAFE-5047-4796-991C-431EFF7A16E3}
+		{E934913C-9D97-4B81-8732-C95689C67848} = {F867DAFE-5047-4796-991C-431EFF7A16E3}
+		{66FF8E65-7CAD-4177-A455-5A493EC1A70C} = {EF6FBFC5-4925-4D8E-9BC7-3B8185286338}
+		{8BC8E29C-36FE-457B-935A-E85BD082AF52} = {EF6FBFC5-4925-4D8E-9BC7-3B8185286338}
+		{2241CE72-5FD1-4F54-BBD6-AFA6ACFBEE5D} = {22F0615B-F7CD-42A8-97FB-AAC565E7919A}
+	EndGlobalSection
+EndGlobal

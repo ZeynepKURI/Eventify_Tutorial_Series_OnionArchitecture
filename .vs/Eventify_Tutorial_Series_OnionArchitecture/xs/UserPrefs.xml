@@ -1,0 +1,8 @@
+﻿<Properties StartupConfiguration="{2241CE72-5FD1-4F54-BBD6-AFA6ACFBEE5D}|https">
+  <MonoDevelop.Ide.ItemProperties.Core.Eventify__Tutorial__Series__OnionArchitecture.Domain FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.Eventify__Tutorial__Series__OnionArchitecture.API PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.Eventify__Tutorial__Series__OnionArchitecture.Persistence FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.Eventify__Tutorial__Series__OnionArchitecture.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Core.Eventify__Tutorial__Series__OnionArchitecture.Application FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
