@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Abstractions\" />
+    <None Remove="Abstractions\Services\" />
+    <None Remove="DTOs\" />
+    <None Remove="RequestParameters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Abstractions\Services\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="RequestParameters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Eventify_Tutorial_Series_OnionArchitecture.Domain\Eventify_Tutorial_Series_OnionArchitecture.Domain.csproj" />
+  </ItemGroup>
 </Project>
