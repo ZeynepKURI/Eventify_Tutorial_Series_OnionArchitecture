@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Eventify_Tutorial_Series_OnionArchitecture\Eventify_Tutorial_Series_OnionArchitecture.Application\Eventify_Tutorial_Series_OnionArchitecture.Application.csproj" />
+  </ItemGroup>
 </Project>

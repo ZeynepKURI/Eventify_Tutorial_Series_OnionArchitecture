@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Eventify_Tutorial_Series_OnionArchitecture.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Eventify_Tutorial_Series_OnionArchitecture.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Eventify_Tutorial_Series_OnionArchitecture.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eventify_Tutorial_Series_OnionArchitecture.Application.dll": {}
+        }
+      },
+      "Eventify_Tutorial_Series_OnionArchitecture.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Eventify_Tutorial_Series_OnionArchitecture.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eventify_Tutorial_Series_OnionArchitecture.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Eventify_Tutorial_Series_OnionArchitecture.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Application/Eventify_Tutorial_Series_OnionArchitecture.Application.csproj",
+      "msbuildProject": "../../Core/Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Application/Eventify_Tutorial_Series_OnionArchitecture.Application.csproj"
+    },
+    "Eventify_Tutorial_Series_OnionArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Eventify_Tutorial_Series_OnionArchitecture.Domain/Eventify_Tutorial_Series_OnionArchitecture.Domain.csproj",
+      "msbuildProject": "../../Core/Eventify_Tutorial_Series_OnionArchitecture.Domain/Eventify_Tutorial_Series_OnionArchitecture.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Eventify_Tutorial_Series_OnionArchitecture.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/zeynepkuri/.nuget/packages/": {}
@@ -32,7 +69,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/zeynepkuri/Projects/Eventify_Tutorial_Series_OnionArchitecture/Core/Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Application/Eventify_Tutorial_Series_OnionArchitecture.Application.csproj": {
+              "projectPath": "/Users/zeynepkuri/Projects/Eventify_Tutorial_Series_OnionArchitecture/Core/Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Application/Eventify_Tutorial_Series_OnionArchitecture.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
