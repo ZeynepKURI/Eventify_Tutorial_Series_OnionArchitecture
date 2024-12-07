@@ -9,6 +9,16 @@ namespace Eventify_Tutorial_Series_OnionArchitecture.Persistence.DbContexts
 	{
 		public DbSet<Event> Events { get; set; }
 
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        { 
+        modelBuilder.Entity<Event>().OwnsOne(x=> x.location);
+            base.OnModelCreating(modelBuilder);
+        }
+
+
+
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseInMemoryDatabase("EventifyDb");

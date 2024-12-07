@@ -40,8 +40,9 @@ namespace Eventify_Tutorial_Series_OnionArchitecture.Persistence.Services
 
         public async Task<IEnumerable<EventDTO>> GetAllEventsAsync(Pagination pagination)
         {
-            return await _context.Events.Select(x=> new EventDTO()
+            return await _context.Events.AsNoTracking().Select(x=> new EventDTO()
             {
+                
                 Title = x.Title,
                 Date = x.Date,
                 location = x.location,

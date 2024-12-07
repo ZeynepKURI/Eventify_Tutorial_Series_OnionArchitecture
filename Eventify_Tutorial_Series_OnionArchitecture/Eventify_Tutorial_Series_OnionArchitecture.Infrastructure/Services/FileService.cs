@@ -11,7 +11,7 @@ namespace Eventify_Tutorial_Series_OnionArchitecture.Infrastructure.Services
             {
                 if (string.IsNullOrWhiteSpace(path))
                     throw new ArgumentNullException(nameof(path));
-                await File.WriteAllTextAsync(text, path);
+                await File.WriteAllTextAsync( path, text);
             }
 
 
