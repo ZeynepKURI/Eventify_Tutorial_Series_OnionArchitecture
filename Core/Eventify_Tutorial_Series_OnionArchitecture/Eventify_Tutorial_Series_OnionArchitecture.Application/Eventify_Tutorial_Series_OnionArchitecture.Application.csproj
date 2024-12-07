@@ -11,12 +11,14 @@
     <None Remove="Abstractions\Services\" />
     <None Remove="DTOs\" />
     <None Remove="RequestParameters\" />
+    <None Remove="Abstractions\Services\Concrete\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstractions\" />
     <Folder Include="Abstractions\Services\" />
     <Folder Include="DTOs\" />
     <Folder Include="RequestParameters\" />
+    <Folder Include="Abstractions\Services\Concrete\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Eventify_Tutorial_Series_OnionArchitecture.Domain\Eventify_Tutorial_Series_OnionArchitecture.Domain.csproj" />

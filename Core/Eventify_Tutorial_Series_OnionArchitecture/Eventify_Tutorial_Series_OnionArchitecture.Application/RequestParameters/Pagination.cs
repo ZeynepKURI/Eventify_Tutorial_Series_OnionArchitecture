@@ -5,8 +5,8 @@ namespace Eventify_Tutorial_Series_OnionArchitecture.Application.RequestParamete
 	//SAYFALANDIRMA
 	public class Pagination
 	{
-		public int ItemCount { get; set; }  //Görüntelenecek 5 veri
-        public int PageCount { get; set; }  // Sayfa Belirmek için
+		public int ItemCount { get; set; } = 5;  //Görüntelenecek 5 veri
+		public int PageCount { get; set; } = 0; // Sayfa Belirmek için
 
     }
 }
