@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eRUjmRfIafAcU59OhYY2mEp8TVzsI7uGK9hmPn3Cz/tGWBGpWzTrpS1wJx1jry2WjIS+r0qW4ZhtKnWzzW0vDQ==",
+  "dgSpecHash": "fkWOjFs2+tQdkNhsAoAdG0Xw+gqGbq0Q6HmOzmblRk5s7Ep7jeeRqoINEdH2vidnfaOpG/d6tmhrXWLd+dgrHA==",
   "success": true,
   "projectFilePath": "/Users/zeynepkuri/Projects/Eventify_Tutorial_Series_OnionArchitecture/Core/Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Application/Eventify_Tutorial_Series_OnionArchitecture.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/zeynepkuri/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/zeynepkuri/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

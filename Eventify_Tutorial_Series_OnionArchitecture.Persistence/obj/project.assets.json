@@ -218,7 +218,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Eventify_Tutorial_Series_OnionArchitecture.Domain": "1.0.0"
+          "Eventify_Tutorial_Series_OnionArchitecture.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0"
         },
         "compile": {
           "bin/placeholder/Eventify_Tutorial_Series_OnionArchitecture.Application.dll": {}

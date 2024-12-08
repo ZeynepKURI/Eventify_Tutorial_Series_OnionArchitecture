@@ -1,36 +1,20 @@
 ﻿<Properties StartupConfiguration="{2241CE72-5FD1-4F54-BBD6-AFA6ACFBEE5D}|https">
-  <MonoDevelop.Ide.ItemProperties.Core.Eventify__Tutorial__Series__OnionArchitecture.Domain FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Core.Eventify__Tutorial__Series__OnionArchitecture.Application FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.Eventify__Tutorial__Series__OnionArchitecture.Persistence FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.Eventify__Tutorial__Series__OnionArchitecture.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Infrastructure/Services/FileService.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Eventify_Tutorial_Series_OnionArchitecture.Presentation/Eventify_Tutorial_Series_OnionArchitecture.API/Program.cs">
     <Files>
-      <File FileName="Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Infrastructure/Services/IFileService.cs" Line="9" Column="3" />
-      <File FileName="Core/Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Application/Abstractions/Services/IFileService.cs" Line="1" Column="1" />
+      <File FileName="../Eventify_Tutorial_Series_OnionArchitecture.Presentation/Eventify_Tutorial_Series_OnionArchitecture.API/Controllers/EventController.cs" />
+      <File FileName="../Eventify_Tutorial_Series_OnionArchitecture.Presentation/Eventify_Tutorial_Series_OnionArchitecture.API/Program.cs" Line="15" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Eventify_Tutorial_Series_OnionArchitecture">
-            <Node name="Core" expanded="True">
-              <Node name="Eventify_Tutorial_Series_OnionArchitecture.Application" expanded="True">
-                <Node name="Abstractions" expanded="True">
-                  <Node name="Services" expanded="True">
-                    <Node name="Concrete" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-            <Node name="Infrastructure">
-              <Node name="Eventify_Tutorial_Series_OnionArchitecture.Infrastructure">
-                <Node name="Services" expanded="True">
-                  <Node name="FileService.cs" selected="True" />
-                </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="Eventify_Tutorial_Series_OnionArchitecture.API" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Program.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -38,6 +22,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Presentation.Eventify__Tutorial__Series__OnionArchitecture.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.Eventify__Tutorial__Series__OnionArchitecture.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
