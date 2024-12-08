@@ -4,17 +4,31 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../Eventify_Tutorial_Series_OnionArchitecture.Presentation/Eventify_Tutorial_Series_OnionArchitecture.API/Program.cs">
     <Files>
-      <File FileName="../Eventify_Tutorial_Series_OnionArchitecture.Presentation/Eventify_Tutorial_Series_OnionArchitecture.API/Controllers/EventController.cs" />
-      <File FileName="../Eventify_Tutorial_Series_OnionArchitecture.Presentation/Eventify_Tutorial_Series_OnionArchitecture.API/Program.cs" Line="15" Column="28" />
+      <File FileName="../Eventify_Tutorial_Series_OnionArchitecture.Presentation/Eventify_Tutorial_Series_OnionArchitecture.API/Controllers/EventController.cs" Line="24" Column="2" />
+      <File FileName="../Eventify_Tutorial_Series_OnionArchitecture.Presentation/Eventify_Tutorial_Series_OnionArchitecture.API/Program.cs" Line="4" Column="62" />
+      <File FileName="Core/Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Application/ServiceRegistration.cs" Line="14" Column="2" />
+      <File FileName="Eventify_Tutorial_Series_OnionArchitecture.Persistence/ServiceRegistration.cs" Line="14" Column="28" />
+      <File FileName="Eventify_Tutorial_Series_OnionArchitecture.Persistence/Services/EventService.cs" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Eventify_Tutorial_Series_OnionArchitecture">
+            <Node name="Core" expanded="True">
+              <Node name="Eventify_Tutorial_Series_OnionArchitecture.Application" expanded="True" />
+            </Node>
+            <Node name="Infrastructure">
+              <Node name="Eventify_Tutorial_Series_OnionArchitecture.Infrastructure" expanded="True">
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Eventify_Tutorial_Series_OnionArchitecture.Persistence" expanded="True">
+                <Node name="DbContexts" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+            </Node>
             <Node name="Presentation" expanded="True">
               <Node name="Eventify_Tutorial_Series_OnionArchitecture.API" expanded="True">
                 <Node name="Controllers" expanded="True" />
-                <Node name="Program.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +37,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/zeynepkuri/Projects/Eventify_Tutorial_Series_OnionArchitecture.Presentation/Eventify_Tutorial_Series_OnionArchitecture.API/Controllers/EventController.cs" relfile=".Presentation/Eventify_Tutorial_Series_OnionArchitecture.API/Controllers/EventController.cs" line="21" column="1" />
+      <Breakpoint file="/Users/zeynepkuri/Projects/Eventify_Tutorial_Series_OnionArchitecture/Core/Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Application/ServiceRegistration.cs" relfile="Core/Eventify_Tutorial_Series_OnionArchitecture/Eventify_Tutorial_Series_OnionArchitecture.Application/ServiceRegistration.cs" line="14" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

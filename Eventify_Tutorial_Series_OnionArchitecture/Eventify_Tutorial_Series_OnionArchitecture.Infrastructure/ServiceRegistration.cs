@@ -8,7 +8,7 @@ namespace Eventify_Tutorial_Series_OnionArchitecture.Infrastructure
 {
 	public static class ServiceRegistration
 	{
-        public static void AddApplicationServices(this IServiceCollection service)
+        public static void AddInfrastructure(this IServiceCollection service)
         {
             service.AddScoped<IFileService, FileService>();
             service.AddScoped<ITextService ,TextService>();
